@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 name = "im-upload"
-client_id = "4ce4e0f5fe810a889e4c7511e043972c"
+client_id = "b08311a6847bcb09e6ef3469df32af40"
 application_url = "https://shopify.dev/apps/default-app-home"
 embedded = true
 
