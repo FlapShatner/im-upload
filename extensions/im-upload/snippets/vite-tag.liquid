@@ -5,9 +5,9 @@
 {% assign path = vite-tag | replace: '~/', '../' | replace: '@/', '../' %}
 {% if path == '/frontend/entrypoints/theme.jsx' or path == 'theme.jsx' %}
   <script
-    src="{{ 'theme-b7d490c1.js' | asset_url | split: '?' | first }}"
+    src="{{ 'theme.js' | asset_url | split: '?' | first }}"
     type="module"
     crossorigin="anonymous"
   ></script>
-  {{ 'theme-cd6eae81.css' | asset_url | stylesheet_tag }}
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
 {% endif %}
